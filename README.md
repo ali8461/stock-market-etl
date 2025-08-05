@@ -27,23 +27,28 @@ stock-market-etl/
 
 ```
 
+
 ## 🚀 Project Flow
 
 1. **Simulate Stock Market Data**
-   - `indexProcessed.csv` is used as a data source.
-   - A Python script using `pandas` and `kafka-python` simulates real-time streaming using
+   - `indexProcessed.csv` is used as the data source.
+   - A Python script using `pandas` and `kafka-python` simulates real-time streaming.
 
 2. **Kafka Setup on EC2**
    - Apache Kafka is installed and configured on an EC2 instance.
    - A topic `demo_topic_2` is created to stream stock market data.
 
 3. **Consumer Writes to S3**
-   - A Kafka consumer receives the messages and writes them to S3.
-     ```
+   - A Kafka consumer reads messages and writes them to Amazon S3.
 
 4. **Data Cataloging and Analysis**
-   - AWS Glue Crawler scans the S3 bucket to build a Data Catalog.
+   - AWS Glue Crawler scans the S3 bucket to build the Data Catalog.
    - Amazon Athena is used to query and analyze the streaming data using SQL.
+
+
+## Summary
+Python (Producer) → Kafka → S3 (Consumer) → Glue Crawler → Glue Data Catalog → Athena Query
+
 
 ## 📦 Requirements
 
@@ -70,4 +75,6 @@ This project is ideal for:
 SELECT * 
 FROM "kafka_stock_database"."stock_market_data"
 LIMIT 10;
-```
+yaml
+Copy
+Edit
