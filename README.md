@@ -83,8 +83,8 @@ yaml
 Copy
 Edit
 
----
-## Architecture Diagram
+
+
 
 ![Sample](snippest/"Athena query".jpg)
 
