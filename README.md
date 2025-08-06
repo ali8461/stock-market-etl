@@ -2,8 +2,12 @@
 # 📈 Real-Time Stock Market Data Pipeline with Kafka and AWS
 
 This project simulates a real-time stock market data stream using Kafka, processes it on an EC2 instance, stores the data on Amazon S3, and analyzes it using AWS Glue and Amazon Athena. The goal is to demonstrate a cost-effective real-time ETL pipeline for financial data analysis without using expensive stock market APIs.
+---
+### Architecture Diagram
 
+![ETL Architecture](architecture.jpg)
 
+---
 ## 🧰 Project Structure
 
 ```
@@ -78,3 +82,9 @@ LIMIT 10;
 yaml
 Copy
 Edit
+
+### Architecture Diagram
+
+![Sample](snippest/'Athena query.jpg')
+
+---
