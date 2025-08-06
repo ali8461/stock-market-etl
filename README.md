@@ -84,6 +84,7 @@ Copy
 Edit
 
 ---
-### Architecture Diagram
+## Architecture Diagram
 
 ![Sample](snippest/"Athena query".jpg)
+
