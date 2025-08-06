@@ -79,10 +79,8 @@ This project is ideal for:
 SELECT * 
 FROM "kafka_stock_database"."stock_market_data"
 LIMIT 10;
-yaml
-Copy
-Edit
 
+```
 
 
 
