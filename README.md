@@ -84,5 +84,3 @@ LIMIT 10;
 
 
 
-![Sample](snippest/"Athena query".png)
-
