@@ -5,7 +5,7 @@ This project simulates a real-time stock market data stream using Kafka, process
 ---
 ### Architecture Diagram
 
-![ETL Architecture](architecture.jpg)
+![ETL Architecture](Architecture.jpg)
 
 ---
 ## 🧰 Project Structure
@@ -83,8 +83,7 @@ yaml
 Copy
 Edit
 
+---
 ### Architecture Diagram
 
 ![Sample](snippest/'Athena query.jpg')
-
----
